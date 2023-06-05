@@ -35,3 +35,24 @@ button{
     cursor: pointer;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 480px) and (max-height: 800px) {
+    .juego{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgp{
+        width: 95%;
+    }
+    .parrafo{
+        width: 95%;
+    }
+    button{
+        position: relative;
+    }
+    h2{
+        position: relative;
+        bottom: 30px;
+    }
+}
+  
